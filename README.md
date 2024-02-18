@@ -5,4 +5,6 @@
   - Variable
   - Data Type
   - if-else
-  - when    
+  - when
+  - loop
+  - array   
