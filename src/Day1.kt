@@ -38,7 +38,7 @@ fun main(){
     println(y)
 
     //Access a string
-    print(name[0])
+    println(name[0])
 
     //if-else condition
     if(x < 10){
@@ -56,9 +56,8 @@ fun main(){
     }
     println(greeting)
 
-    //Instead of if-else we can use "when"
+    //Instead of if-else we can use "when", it is similar to switch statement
     val day = 4
-
     val result = when (day) {
         1 -> "Monday"
         2 -> "Tuesday"
@@ -70,5 +69,46 @@ fun main(){
         else -> "Invalid day."
     }
     println(result)
+
+    //while loop
+    var i = 0
+    while (i < 5) {
+        println(i)
+        i++
+    }
+
+    //do while
+    i = 0
+    do {
+        println(i)
+        i++
+    }
+    while (i < 5)
+
+    // break - to jump out of the block
+    // continue - to skip one iteration
+
+    // array - use arrayof() function
+    val car = arrayOf("audi", "bmw", "volvo", "tata", "suzuki")
+    println(car[0])  // print element
+    car[0] = "ford"  // replace element
+    println(car[0])
+    println(car.size) //get size of array
+    if("tata" in car){ //check element in array
+        println("it is.")
+    } else{
+        println("No.")
+    }
+    for(c in car){ // loop through array
+        println("car names: $c")
+    }
+
+    // for loop
+    for (num in 5..15) {
+        if (num == 10) {
+            continue
+        }
+        println(num)
+    }
 }
 
