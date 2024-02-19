@@ -3,3 +3,5 @@
 
 ### Day1:
   - Variable, Data Type, if-else, when, loop, array   
+### Day2:
+ - Val and Var in array,  
