@@ -4,4 +4,4 @@
 ### Day1:
   - Variable, Data Type, if-else, when, loop, array   
 ### Day2:
- - Val and Var in array,  
+ - Val and Var in array, difference b/w char and string, operation on string, repeat, all about function
